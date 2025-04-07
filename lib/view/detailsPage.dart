@@ -69,11 +69,11 @@ class _DetailsPageState extends State<DetailsPage> {
             ),
           ),
           Positioned(
-            top:MediaQuery.of(context).size.height*0.45,
+            top:MediaQuery.of(context).size.height*0.55,
             right: 0,
             left: 0,
             child: Container(
-              height: MediaQuery.of(context).size.height*0.55,
+              height: MediaQuery.of(context).size.height*0.45,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20))
